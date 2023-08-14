@@ -1,0 +1,12 @@
+.avatarContainer{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #F6F6F6;
+    display: inline-flex;
+    border: 1px solid grey;
+    z-index: 10;
+    margin-top: 10px;
+}
+.avatarImg{
+    border-radius: 50%;
+}
