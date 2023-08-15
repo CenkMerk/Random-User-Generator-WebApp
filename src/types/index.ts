@@ -34,3 +34,13 @@ export interface UserDetailsProps {
   cell: string;
   password: string;
 }
+
+export interface TextDetailsProps {
+  fullName: string;
+  email: string;
+  date: string;
+  address: string;
+  cell: string;
+  password: string;
+  value: string;
+}
