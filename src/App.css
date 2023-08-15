@@ -3,8 +3,25 @@ body {
 }
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
+  gap: 10px;
+  padding: 0px 10px;
+}
+.newButton {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: #ff6464;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.newButton:hover {
+  background-color: #74C6F7;
 }
