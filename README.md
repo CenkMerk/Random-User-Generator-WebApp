@@ -2,6 +2,8 @@
 
 This project is a random user generator application developed using React and TypeScript. The app makes requests to a random user generator API to fetch and display random user information.
 
+**To View the Live Project:** [Click Here](https://randomusergeneratorcenkmerk.netlify.app/)
+
 ## 🚀 Teknolojiler
 - **React**: Used as a component-based library for the user interface.
 - **TypeScript**: Provides a strong type system for safer and more understandable code.
