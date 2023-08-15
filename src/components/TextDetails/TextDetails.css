@@ -4,16 +4,15 @@
   font-size: 18px;
   margin-bottom: 0;
 }
-.userValue{
-    text-align: center;
-    color: #2c2e31;
-    font-size: 38px;
-    text-transform: capitalize;
-    margin-top: 0;
+.userValue {
+  text-align: center;
+  color: #2c2e31;
+  font-size: 28px;
+  margin-top: 0;
 }
 
 @media (max-width: 500px) {
-    .userValue {
-        font-size: 20px;
-    }
+  .userValue {
+    font-size: 20px;
   }
+}
