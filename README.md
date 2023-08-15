@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Random User Generator WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a random user generator application developed using React and TypeScript. The app makes requests to a random user generator API to fetch and display random user information.
 
-Currently, two official plugins are available:
+## 🚀 Teknolojiler
+- **React**: Used as a component-based library for the user interface.
+- **TypeScript**: Provides a strong type system for safer and more understandable code.
+- **Axios**: Utilized for making API requests.
+- **CSS**: Basic styling and layout handled using CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⭐️ Features
+- Displaying random user information.
+- Refreshing user details and viewing different users.
+- Accessing user's name, profile picture, contact details, and other information.
 
-## Expanding the ESLint configuration
+## 🏃  How to Run
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Open your terminal in the project directory.
+2. Use the command `npm install` to install the necessary dependencies.
+3. Use the command `npm start` to launch the application.
 
-- Configure the top-level `parserOptions` property like this:
+## 🤝  Contribution
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+If you'd like to contribute, please fork the repository and open a pull request. I'm open to fixes, features, and improvements anytime.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
