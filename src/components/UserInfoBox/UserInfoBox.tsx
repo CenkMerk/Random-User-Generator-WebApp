@@ -1,5 +1,7 @@
 import "./UserInfoBox.css";
 import { UserInfoBoxProps } from "../../types";
+import UserAvatar from "../UserAvatar/UserAvatar";
+import UserDetails from "../UserDetails/UserDetails";
 
 const UserInfoBox = ({
   cell,
@@ -10,9 +12,24 @@ const UserInfoBox = ({
   firstName,
   lastName,
   password,
+  picture,
 }: UserInfoBoxProps) => {
-  console.log(cell, city, country, date, email, firstName, lastName, password);
-  return <div className="UserInfoBoxContainer">UserInfoBox</div>;
+  return (
+    <div className="UserInfoBoxContainer">
+      <UserAvatar picture={picture} />
+      <hr />
+      <UserDetails
+        cell={cell}
+        city={city}
+        country={country}
+        date={date}
+        email={email}
+        firstName={firstName}
+        lastName={lastName}
+        password={password}
+      />
+    </div>
+  );
 };
 
 export default UserInfoBox;

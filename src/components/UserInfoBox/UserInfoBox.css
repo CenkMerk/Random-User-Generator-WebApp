@@ -1,8 +1,18 @@
 .UserInfoBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   width: 100%;
-  margin: 0px 20px;
   border-radius: 10px;
+  position: relative;
+}
+
+hr {
+  position: absolute;
+  width: 100%;
+  color: grey;
+  top: 77px;
 }
 
 @media (min-width: 600px) {
