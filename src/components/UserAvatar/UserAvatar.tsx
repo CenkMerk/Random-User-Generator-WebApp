@@ -4,7 +4,7 @@ import "./UserAvatar.css";
 const UserAvatar = ({ picture }: UserAvatarProps) => {
   return (
     <div className="avatarContainer">
-      <img src={`${picture}`} alt="avatar" className="avatarImg" />
+      <img src={`${picture}`} alt="avatar" className="avatarImg" loading="lazy"/>
     </div>
   );
 };
