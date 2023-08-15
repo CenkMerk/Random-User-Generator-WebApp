@@ -4,7 +4,7 @@ This project is a random user generator application developed using React and Ty
 
 **To View the Live Project:** [Click Here](https://randomusergeneratorcenkmerk.netlify.app/)
 
-## 🚀 Teknolojiler
+## 🚀 Technologies
 - **React**: Used as a component-based library for the user interface.
 - **TypeScript**: Provides a strong type system for safer and more understandable code.
 - **Axios**: Utilized for making API requests.
